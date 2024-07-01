@@ -1,0 +1,5 @@
+spring.profiles.active: dev
+bot:
+  name: ${bot_name}
+  token: ${bot_token}
+  uri: https://api.nasa.gov/planetary/apod?api_key=${nasa_key}
